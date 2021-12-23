@@ -112,6 +112,8 @@ venv.bak/
 
 https
 
+.data
+.*
 # Spyder project settings
 .spyderproject
 .spyproject

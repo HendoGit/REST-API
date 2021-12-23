@@ -11,6 +11,17 @@ var url = require('url');
 var StringDecoder = require('string_decoder').StringDecoder;
 var config = require('./config');
 var fs = require('fs');
+var _data = require('./lib/data');
+
+// TESTING
+_data.delete('test', 'newFile', function(err){
+    console.log('this is the error', err);
+});
+
+
+
+
+
 // String decoder library contains number of useful things - we just want those within StringDecoder part of the object
 
 //The server should respond to all requests with a string
