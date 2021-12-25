@@ -14,7 +14,8 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+# Needed since writing own libs
+# lib/
 lib64/
 parts/
 sdist/
