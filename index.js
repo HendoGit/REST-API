@@ -15,6 +15,9 @@ var _data = require('./lib/data');
 var handlers = require('./lib/handlers')
 var helpers = require('./lib/helpers')
 
+helpers.sendTwilioSms('1234123412', 'Hello', function(err){
+    console.log('this was the error', err);
+});
 
 
 
